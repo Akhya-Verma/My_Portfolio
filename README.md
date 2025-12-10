@@ -5,6 +5,30 @@ Designed with a clean UI, smooth animations, and an emphasis on performance and 
 
 ---
 
+<p align="center">
+  <a href="https://akhyaverma.vercel.app" target="_blank" 
+     style="
+        display:inline-block;
+        padding: 14px 38px;
+        font-size: 20px; 
+        font-weight: 600;
+        color: #000;
+        background: linear-gradient(135deg, #d7ff00, #c6ff2e);
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 0 18px rgba(215, 255, 0, 0.7);
+        transition: all 0.25s ease;
+     "
+     onmouseover="this.style.boxShadow='0 0 30px rgba(215,255,0,1)'"
+     onmouseout="this.style.boxShadow='0 0 18px rgba(215,255,0,0.7)'"
+  >
+    Live Portfolio&nbsp;
+  </a>
+</p>
+
+
+---
+
 ## ✨ Features
 
 - Responsive design for desktop, tablet, and mobile

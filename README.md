@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# Akhya Verma – Portfolio Website
 
-## Project info
+A modern, responsive personal portfolio website showcasing my work in **Machine Learning**, **Web Development**, and **Data Science**.
+Designed with a clean UI, smooth animations, and an emphasis on performance and user experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- Responsive design for desktop, tablet, and mobile
+- Interactive hero section with animated elements
+- Projects showcase with detailed descriptions
+- Contact section with direct email integration
+- Resume download support
+- Optimized for performance and SEO
+- Clean and minimal UI with modern animations
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Vite** – Fast build tool
+- **React** – Component-based UI
+- **TypeScript** – Type-safe development
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Reusable UI components
+- **EmailJS** - For Contact Us emails
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started (Local Setup)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+Make sure you have the following installed:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+- **Node.js** (v18 or higher recommended)
+- **npm**
+
+You can install Node.js using **nvm** if needed.
+
+---
+
+### Installation Steps
+
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd <PROJECT_FOLDER_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧩 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable UI components
+├── sections/        # Page sections (Hero, Projects, Contact, etc.)
+├── styles/          # Global styles
+├── main.tsx         # Entry point
+└── App.tsx          # Root component
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 Deployment
 
-## How can I deploy this project?
+This project can be deployed easily on platforms like:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- **Vercel**
+- **Netlify**
+- **Cloudflare Pages**
 
-## Can I connect a custom domain to my Lovable project?
+### Build Command
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Preview Build
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm run preview
+```
+
+---
+
+## 🔐 Environment Variables
+
+##### ENV sample for EmailJS API 
+
+---
+
+## 📬 Contact
+
+If you’d like to collaborate or discuss opportunities:
+
+- **Email:** [akhyaverma0110@gmail.com](mailto:akhyaverma0110@gmail.com)
+- **Location:** Kanpur, Uttar Pradesh, India
+
+---
+
+## 📜 License
+
+This project is open-source and available for personal reference and learning.
+Feel free to fork, modify, and adapt for your own portfolio.
+
+---

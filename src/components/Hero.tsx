@@ -88,7 +88,7 @@ export const Hero = () => {
 
               <Button variant="heroOutline" size="lg" asChild>
                 <a
-                  href="https://drive.google.com/file/d/1yDuTQ9aFn9vF4g25vpsl4M4X96ew29Co/view?usp=sharing"
+                  href="https://drive.google.com/file/d/17oWQcGM0KbP50cvYod6eonuzlj5JMRBG/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
